@@ -7,10 +7,15 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.9-1",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "morgan": "~1.9.0"
+    "md5": "^2.2.1",
+    "morgan": "~1.9.0",
+    "node-forge": "^0.7.5",
+    "request": "^2.87.0",
+    "utf8": "^3.0.0"
   }
 }
