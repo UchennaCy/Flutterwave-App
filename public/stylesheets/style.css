@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: url();
+	background-position: center;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.bvn-form{
+	width: 320px;
+	height: 250px;
+	background: #9d9db1;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 10px;
+}
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.bvn-form input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type='number']{
+	background: transparent;
+	/*outline: none;*/
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+#submit{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-left: 75px;
+	position: absolute;
+}
+
+#submit:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
