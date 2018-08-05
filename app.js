@@ -28,12 +28,16 @@ app.get('/', function(req, res, next) {
 })
 
 //adding route for the new ejs files that has been created
-app.get('/signup', function(req, res, next){
+app.get('/sign-up.ejs', function(req, res, next){
 	res.render('sign-up');
 })
 
-app.get('/bvn/validate', function(req, res, next) {
+app.get('/bvn-validation.ejs', function(req, res, next) {
 	res.render('bvn-validation');
+})
+
+app.get('/make-payment.ejs', function(req, res, next) {
+  res.render('make-payment');
 })
 
 // catch 404 and forward to error handler
